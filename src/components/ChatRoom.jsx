@@ -64,7 +64,7 @@ export default function ChatRoom() {
         </div>
       )}
 
-      {/* Area pesan */}
+      {/* Area */}
       <div className="h-72 overflow-y-auto border border-gray-700 p-3 rounded-lg bg-zinc-800 mb-4 space-y-3">
         {messages.map((msg) => (
           <div

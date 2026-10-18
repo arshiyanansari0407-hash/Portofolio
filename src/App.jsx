@@ -106,7 +106,7 @@ function App() {
             <ProfileCard
               name="Arshiyan Ansari"
               title="Junior Software Developer"
-              handle="arshiyanansari"
+              handle="Arshiyan"
               status="Online"
               contactText="Contact Me"
               avatarUrl="./assets/Arshiyan-removebg.png"
@@ -121,15 +121,15 @@ function App() {
         <div className="mt-15 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6" id="about">
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 pt-0 px-8" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-violet-500/30">
-              {/* Kolom kiri */}
               <div className="flex-1 text-left">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
                   About Me
                 </h2>
 
                 <BlurText
-                  text="I’m Arshiyan Ansari, a junior software developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
-                  delay={150}
+                  text="I'm Arshiyan Ansari, a Junior Software Developer and Full-Stack Engineer specializing in the MERN stack, JavaScript, and TypeScript. I build responsive, high-performance web applications, robust RESTful APIs, and cloud-backed digital tools using React, Node.js, Express, and MongoDB.
+With hands-on internship experience developing 15+ secure RESTful APIs, multi-role authentication systems, and analytics dashboards, I combine modern web development with AI integration to solve complex, practical engineering problems. I'm passionate about engineering functional, aesthetic, and scalable digital products that deliver meaningful business impact."
+                  delay={200}
                   animateBy="words"
                   direction="top"
                   className="text-base md:text-lg leading-relaxed mb-10 text-gray-300"
@@ -149,12 +149,12 @@ function App() {
                     </h1>
                     <p>Internship Experience</p>
                   </div>
-                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
+                  {/* <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
                       3.81<span className="text-violet-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
-                  </div>
+                  </div> */}
                 </div>
 
 
@@ -167,7 +167,6 @@ function App() {
               </div>
             </div>
 
-            {/* Kolom kanan */}
             <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center ">
               <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
             </div>
@@ -246,7 +245,6 @@ function App() {
             Get in touch with me or chat in real-time
           </p>
 
-          {/* Container kolom */}
           <div className="flex flex-col md:flex-row gap-8">
             {/* Chat Room */}
             <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">

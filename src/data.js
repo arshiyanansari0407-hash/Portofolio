@@ -135,8 +135,8 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-// import Proyek2 from "/assets/proyek/proyek2.jpg";
+// import Proyek1 from "/assets/proyek/proyek1.jpg";
+import Portfolio from "/assets/proyek/Portfolio.jpeg";
 // import Proyek3 from "/assets/proyek/proyek3.jpg";
 // import Proyek4 from "/assets/proyek/proyek4.jpg";
 // import Proyek5 from "/assets/proyek/proyek5.jpg";
@@ -145,7 +145,6 @@ import Proyek1 from "/assets/proyek/proyek1.jpg";
 export const listProyek = [
   {
     id: 1,
-    image: Proyek1,
     title: "Naaz - Plywood E-Commerce",
     subtitle: "Full-stack eCommerce & factory order management system...",
     fullDescription: "A full-stack eCommerce and factory order management application built with React, Node.js, Express, and MongoDB featuring responsive Tailwind CSS interfaces.",
@@ -176,17 +175,17 @@ export const listProyek = [
   //   url: "https://github.com/rissss21",
   //   dad: "300",
   // },
-  // {
-  //   id: 4,
-  //   image: Proyek4,
-  //   title: "Personal Web Portfolio",
-  //   subtitle: "An interactive web portfolio showcasing my professional journey...",
-  //   fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
-  //   borderColor: "#10B981",
-  //   gradient: "linear-gradient(180deg, #10B981, #000)",
-  //   url: "https://github.com/rissss21",
-  //   dad: "400",
-  // },
+  {
+    id: 2,
+    image: Portfolio,
+    title: "Personal Web Portfolio",
+    subtitle: "An interactive web portfolio showcasing my professional journey...",
+    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://github.com/arshiyanansari0407-hash/Portofolio",
+    dad: "400",
+  },
   //   {
   //   id: 5,
   //   image: Proyek5,
