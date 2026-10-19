@@ -36,7 +36,7 @@ function App() {
       performance.getEntriesByType("navigation")[0]?.type === "reload";
 
     if (isReload) {
-      const baseUrl = window.location.origin + "/portofolio/";
+      const baseUrl = window.location.origin + "/";
       window.location.replace(baseUrl);
     }
   }, []);
@@ -113,7 +113,12 @@ function App() {
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
-              onContactClick={() => console.log('Contact clicked')}
+              onContactClick={() => {
+                window.open(
+                  'https://mail.google.com/mail/?view=cm&fs=1&to=arshiyanansari0407@gmail.com&su=Portfolio%20Inquiry',
+                  '_blank'
+                );
+              }}
             />
           </div>
         </div>
@@ -145,7 +150,7 @@ With hands-on internship experience developing 15+ secure RESTful APIs, multi-ro
                   <div>
                     {/* Internship / Industry Experience */}
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      1<span className="text-violet-500">+</span>
+                      1
                     </h1>
                     <p>Internship Experience</p>
                   </div>
@@ -254,7 +259,7 @@ With hands-on internship experience developing 15+ secure RESTful APIs, multi-ro
             {/* Contact Form */}
             <div className="flex-1">
               <form
-                action="https://formsubmit.co/rissoppa21@gmail.com"
+                action="https://formsubmit.co/arshiyanansari0407@gmail.com"
                 method="POST"
                 className="bg-zinc-800 p-10 w-full rounded-md"
                 autoComplete="off"
